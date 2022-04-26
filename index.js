@@ -84,47 +84,52 @@ console.log(device);
 
 
 
-let Toyota = {
-    trim: "trd",
-    model: "Camry",
-    seat: 5,
-    fuel: "petrol",
-    year: 2022
-}; 
+ 
 
-let Lamborghini = {
-    trim: "Evo",
-    model: "huracan",
-    seat: 3,
-    fuel: "petrol",
-    year: 2019
-}; 
+let objectinArray = [
+    Toyota = {
+        trim: "trd",
+        model: "Camry",
+        seat: 5,
+        fuel: "petrol",
+        year: 2022
+    }, 
+    
+     Lamborghini = {
+        trim: "Evo",
+        model: "huracan",
+        seat: 3,
+        fuel: "petrol",
+        year: 2019
+    }, 
+    
+     Mercedes = {
+        trim: "4matic+",
+        model: "gle",
+        seat: "7",
+        fuel: "petrol",
+        year: 2020
+    },
+    
+     Ford = {
+        trim: "GT500",
+        model: "mustang",
+        seat: 4,
+        fuel: "petrol",
+        year: 2018
+    },
+    
+    
+     Honda = {
+        trim: "LX",
+        model: "Civic",
+        seat: 5,
+        fuel: "petrol",
+        year: 2017
+    }
 
-let Mercedes = {
-    trim: "4matic+",
-    model: "gle",
-    seat: "7",
-    fuel: "petrol",
-    year: 2020
-};
+]
 
-let Ford = {
-    trim: "GT500",
-    model: "mustang",
-    seat: 4,
-    fuel: "petrol",
-    year: 2018
-};
+console.log("objectofarray", objectinArray[4])
 
-
-let Honda = {
-    trim: "LX",
-    model: "Civic",
-    seat: 5,
-    fuel: "petrol",
-    year: 2017
-}; 
-
-let objectinArray = [Toyota, Lamborghini, Mercedes, Ford, Honda]
-
-console.log(objectinArray)
+console.log("objectofarray", objectinArray[2].model)
